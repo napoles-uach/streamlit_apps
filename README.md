@@ -1,2 +1,2 @@
 # streamlit_apps
-For Streamlit Share proyects
+For Streamlit Share projects
