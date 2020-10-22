@@ -1,4 +1,8 @@
-
+gender_guesser
 matplotlib
+streamlit-0.68.0-py2.py3-none-any.whl
 numpy
-plotly
+pandas
+xmltodict
+urllib3
+seaborn
