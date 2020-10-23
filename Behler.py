@@ -26,7 +26,7 @@ st.write('values describe the energetically relevant local environment of each a
 st.write('They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
 
 st.write('For each atom in the system there is now a NN which we call subnet $S_i$ and which after the weight optimization yields ')
-st.write('the energy contribution $E_i$.’)
+st.write('the energy contribution $E_i$.')
 
 st.write('To ensure the invariance of the total energy with respect to the interchanging of two atoms the structure of all ')
 st.write('subnets and the values of the weight paramaters are constrained to be identical in each $S_i$.')
