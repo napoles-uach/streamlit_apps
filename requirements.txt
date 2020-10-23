@@ -1,8 +1,5 @@
-gender_guesser
 matplotlib
-streamlit-0.68.0-py2.py3-none-any.whl
+streamlit==0.69
 numpy
-pandas
-xmltodict
-urllib3
-seaborn
+
+
