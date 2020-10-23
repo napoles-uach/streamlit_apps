@@ -13,7 +13,7 @@ st.write('The node in the output layer yields the associated energy $E_i$, which
 x = st.slider('x')  #
 st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
-Rc=11.0
+Rc=x
 x = np.arange(0,11,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
 plt.plot(x,y)
