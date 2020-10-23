@@ -30,6 +30,7 @@ y = 0.5*(np.cos(np.pi*x/Rc)+1)
 #plt.legend(['Rc=11'])
 plt.xlabel('R_ij')
 plt.ylabel('f_c')
+plt.hlines(y=0.2, xmin=4, xmax=20, linewidth=2, color='r')
 plt.plot(x,y)
 st.pyplot(fig)
 
