@@ -42,4 +42,4 @@ plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
 plt.plot(x,y)
 st.pyplot(fig)
 
-st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 $\AA$ has been used.')
+st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 Angstroms has been used.')
