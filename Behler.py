@@ -33,6 +33,9 @@ fig = plt.figure(figsize=(4,2))
 #Rc=x
 x = np.arange(0,11,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
+plt.legend(['Rc=11'])
+plt.xlabel('R_ij')
+plt.ylabel('f_c')
 plt.plot(x,y)
 st.pyplot(fig)
 
