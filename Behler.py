@@ -25,12 +25,12 @@ Rc = st.slider('Rc',1,20)  #
 #st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
 #Rc=x
-x = np.arange(0,Rc,0.2)
+x = np.arange(0,Rc+1,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
 #plt.legend(['Rc=11'])
 plt.xlabel('R_ij')
 plt.ylabel('f_c')
-plt.hlines(y=0.0, xmin=Rc, xmax=20, linewidth=0.4, color='r')
+plt.hlines(y=0.0, xmin=Rc, xmax=20, linewidth=1, color='b')
 plt.plot(x,y)
 st.pyplot(fig)
 
