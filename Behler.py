@@ -10,6 +10,13 @@ st.write('The structure of a simple NN as it has hitherto been used to represent
 #st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
 components.html(
     """ 
+ Thus, in order to represent PESs useful for all system sizes, a new NN topology has to be introduced.
+
+The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)
+
+$$E=\sum_i E_i$$
+
+The general structure of this new network topology is shown schematically for a system consisting of three atoms.
 <figure>
 <center>
 <img src='https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif' width="400"/>
@@ -18,8 +25,8 @@ components.html(
     """,
     height=600,
 )
-st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
-st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
+#st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
+#st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
 x = st.slider('x')  #
 st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
