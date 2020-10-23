@@ -27,10 +27,10 @@ The general structure of this new network topology is shown schematically for a 
 )
 #st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
 #st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
-x = st.slider('x',1,20)  #
+Rc = st.slider('Rc',1,20)  #
 st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
-Rc=x
+#Rc=x
 x = np.arange(0,11,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
 plt.plot(x,y)
