@@ -18,7 +18,7 @@ st.header("Behler")
 Rc=11.0
 x = np.arange(0,11,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
-fig=plt.plot(x,y)
+fig, ax =plt.plot(x,y)
 
 st.pyplot(fig)
 
