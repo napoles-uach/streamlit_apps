@@ -27,7 +27,7 @@ Rc = st.slider('Rc',1,20)  #
 #st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
 #Rc=x
-x = np.arange(0,Rc,0.2)
+x = np.arange(0,Rc+0.2,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
 #plt.legend(['Rc=11'])
 plt.xlabel('R_ij')
