@@ -40,7 +40,7 @@ st.write('2. identical local environments must give rise to the same set.')
 st.write('3. the symmetry function values must be invariant with respect to a rotation or translation of the system. ')
 st.write('4. the number of symmetry functions must be independent of the coordination of the atom, because the coordination ')
 st.write('number of an atom can change in a MD simulation, while the structure of the subnets must not be changed if the NN is ')
-st.write('to remain applicable generally.’)
+st.write('to remain applicable generally.')
 
 st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
 st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
