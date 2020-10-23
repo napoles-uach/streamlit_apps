@@ -22,7 +22,7 @@ st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02
 st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
 st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
 #st.write('$$f_c(R_{ij})= 0.5\times[\cos(\frac{\pi R_{ij}}{R_c})+1]$$')#  \text{for }R_{ij}\le R_c\\0     \text{for }R_{ij}\gt R_c  $$')
-st.write('$$f_c(R_{ij})=0.5\cos(x)+1$$')
+st.write('$$f_c(R_{ij})=0.5\cos(\frac{\pi R_{ij}}{R_c})+1$$')
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 Rc = st.slider('Rc',1,20)  #
 #st.write(x, 'squared is', x * x)
