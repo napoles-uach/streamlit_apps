@@ -23,7 +23,7 @@ The general structure of this new network topology is shown schematically for a 
 <figcaption>DOI: 10.1039/C7SC02267K (Edge Article) Chem. Sci., 2017, 8, 6924-6935</figcaption></center>
 </figure>
     """,
-    height=600,
+    width=600,
 )
 #st.write('In the nodes of the input layer the two generalized coordinates $G_i^1$ and $G_i^2$ that determine the energy of configuration $i$ are provided.')
 #st.write('The node in the output layer yields the associated energy $E_i$, which in this case depends on the values of the two input nodes $G_i^1$ and $G_i^2$.')
