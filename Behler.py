@@ -17,7 +17,7 @@ st.write('The main idea is to represent the total energy $E$ of the system as a 
 st.write('$$E=\sum_i E_i$$')
 
 st.write('The general structure of this new network topology is shown schematically for a system consisting of three atoms.')
-st.write('The $$R_i$$ represent the Cartesian coordinates $\alpha$ of atom $i$. In a first step these coordinates are transformed into a set of symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
+st.write('The $$R_i^{\alpha}$$ represent the Cartesian coordinates $\alpha$ of atom $i$. In a first step these coordinates are transformed into a set of symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
 
 st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
 
