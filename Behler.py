@@ -5,16 +5,17 @@ import streamlit.components.v1 as components
 
 
 
-st.header("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
-st.write('The structure of a simple NN as it has hitherto been used to represent PESs is shown schematically for a 2D PES.')
+st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
+#st.write('The structure of a simple NN as it has hitherto been used to represent PESs is shown schematically for a 2D PES.')
 #st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
 #components.html(
 #    """ 
-st.write('Thus, in order to represent PESs useful for all system sizes, a new NN topology has to be introduced.')
+#st.write('In order to represent PESs useful for all system sizes, a new NN topology has to be introduced.')
 
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
-st.write('$$E=\sum_i E_i$$')
+st.latex(r'''E=\sum_i E_i''')
+#st.write('$$E=\sum_i E_i$$')
 
 st.write('The general structure of this new network topology is shown schematically below:')
 st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
