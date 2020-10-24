@@ -28,11 +28,11 @@ st.write('$$f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1$$ for $R_{ij}\le R_c$')
 st.write('and $0$ for $R_{ij}>R_c$:')
 
 
-col1, col2 = st.beta_columns((2,1))
+
 #column 1
 
-col1.write("**Finance and Business:** they can be used to evaluate risk in different \
-options the business is looking at, such as investments")
+#col1.write("**Finance and Business:** they can be used to evaluate risk in different \
+#options the business is looking at, such as investments")
 #col1.write("**Search and Rescue:** US coast guard uses it to predict likely locations of \
 #vessels in need of assistance")
 #col1.write("**Design and Visuals:** such as video games and producing 3D photo-realistic \
@@ -44,7 +44,7 @@ options the business is looking at, such as investments")
 # column 2: a gif
 #col2.write('[Wiki for the image](https://en.wikipedia.org/wiki/Kinetic_theory_of_gases)')
 # streamlit share launches from a directory above so need to account for this in the file path
-col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true', caption='Brownian motion is random!',use_column_width=True)
+
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 Rc = st.slider('Rc',1,20)  #
@@ -84,9 +84,11 @@ plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 plt.ylim(-.05, 1.05)
 plt.xlabel(r'$R_{ij}$')
 plt.ylabel(r'$G^1$')
-
-
+col1, col2 = st.beta_columns((2,1))
 col1.pyplot(fig2)
+col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true', caption='Brownian motion is random!',use_column_width=True)
+
+
 
 st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 Angstroms has been used.')
 st.write('*Function $G^1$is a sum of Gaussians multiplied by cutoff functions. The width of the Gaussians is defined by a parameter $\eta$, and the center of the Gaussians can be shifted to a certain radial distance by the parameter $R_s$. These "shifted" $G^1$ functions then are suitable to describe a spherical shell around the reference atom*.')
