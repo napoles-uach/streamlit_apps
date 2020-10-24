@@ -2,15 +2,12 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
-add_selectbox = st.sidebar.selectbox(
-    'How would you like to be contacted?',
-    ('Email', 'Home phone', 'Mobile phone')
-)
+
 
 # Add a slider to the sidebar:
-add_slider = st.sidebar.slider(
-    'Select a range of values',
-    0.0, 100.0, (25.0, 75.0)
+#add_slider = st.sidebar.slider(
+#    'Select a range of values',
+#    0.0, 100.0, (25.0, 75.0)
 )
 st.beta_set_page_config(layout="wide")
 
@@ -56,7 +53,7 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
-Rc = st.slider('Rc',1,20)  #
+Rc = st.sidebar.slider('Rc',1,20)  #
 #st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
 #Rc=x
