@@ -42,7 +42,7 @@ st.pyplot(fig)
 #---------------
 fig2 = plt.figure(figsize=(4,2))
 #Rc=11.3
-x = np.arange(0,Rc+0.2,0.2)
+x = np.arange(0,Rc+0.05,0.05)
 y1 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-2)**2)
 y2 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-3)**2)
 y3 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-4)**2)
@@ -56,6 +56,7 @@ plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 plt.legend(['Rc=11.3'])
 plt.xlabel('R_ij')
 plt.ylabel('G^1')
+plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
 st.pyplot(fig2)
 
 st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 Angstroms has been used.')
