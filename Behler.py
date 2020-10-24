@@ -66,3 +66,4 @@ plt.ylabel(r'$G^1$')
 st.pyplot(fig2)
 
 st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 Angstroms has been used.')
+st.write('*Function $G^1$ ($G^2$ in the figure) is a sum of Gaussians multiplied by cutoff functions. The width of the Gaussians is defined by a parameter $\eta$, and the center of the Gaussians can be shifted to a certain radial distance by the parameter $R_s$. These "shifted" $G^1$ functions then are suitable to describe a spherical shell around the reference atom*.')
