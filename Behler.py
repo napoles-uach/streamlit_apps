@@ -2,10 +2,9 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
-st.sidebar.title("% Error Graph Parameters")
-st.sidebar.markdown("To see the details of the error graph you can log one or both axes \
-of the graph. This will display the order of magnitude (the number of 0's before or after \
-the decmal point) of the percent error and total number of points.")
+st.sidebar.title("Original paper")
+st.sidebar.markdown("[Goodreads profile](https://www.goodreads.com/)")
+
 
 st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
 
