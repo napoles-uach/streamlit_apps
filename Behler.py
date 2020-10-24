@@ -85,7 +85,7 @@ plt.ylim(-.05, 1.05)
 plt.xlabel(r'$R_{ij}$')
 plt.ylabel(r'$G^1$')
 col1, col2 = st.beta_columns((2,1))
-col1.pyplot(fig2)
+col1.pyplot(fig2,use_column_width=True)
 col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true', caption='Brownian motion is random!',use_column_width=True)
 
 
