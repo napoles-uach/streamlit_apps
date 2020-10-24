@@ -46,8 +46,9 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 #Rc = st.sidebar.slider('Rc',1,20)  #
+beta = st.selectbox('$$\beta$$',(1,2,3,4,5))
 Rc = st.slider('Rc',1,20,11)
-beta = st.selectbox('$\beta$',(1,2,3,4,5))
+
 #st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,3.5))
 #Rc=x
