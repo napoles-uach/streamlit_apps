@@ -4,29 +4,18 @@ import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
 
-# Add a slider to the sidebar:
-#add_slider = st.sidebar.slider(
-#    'Select a range of values',
-#    0.0, 100.0, (25.0, 75.0)
-#)
-#st.beta_set_page_config(layout="wide")
-
 st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
-#st.write('The structure of a simple NN as it has hitherto been used to represent PESs is shown schematically for a 2D PES.')
-#st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
-#components.html(
-#    """ 
-#st.write('In order to represent PESs useful for all system sizes, a new NN topology has to be introduced.')
 
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
 st.latex(r'''E=\sum_i E_i''')
-#st.write('$$E=\sum_i E_i$$')
+
 
 st.write('The general structure of this network topology is shown schematically below:')
-#st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
+
 st.image('https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif',use_column_width=True)
-st.write('The $$R_i$$ represent the Cartesian coordinates of atom $i$. In a first step these coordinates are transformed into a set of symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
+st.write('The $$R_i$$ represent the Cartesian coordinates of atom $i$. In a first step these coordinates are transformed into a set of \
+symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
 
 st.write('**Radial symmetry functions** are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
 st.write('$$G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij})$$')
