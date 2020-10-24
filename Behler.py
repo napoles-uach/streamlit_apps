@@ -27,10 +27,10 @@ st.write('**Radial symmetry functions** are constructed as a sum of Gaussians wi
 st.latex(r'''G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij}) ''')
 
 st.latex(r'''f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1 \text{ for } R_{ij}\le R_c  ''')
-st.write('and $0$ for $R_{ij}>R_c$:')
+st.write('and $0$ for $R_{ij}>R_c$.')
 
 
-
+st.write('Chose parameters $\eta$ and $R_c$ below:')
 
 st.write('$\eta$')
 eta = st.selectbox('',(1,2,3,4,5))
