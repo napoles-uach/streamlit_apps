@@ -42,7 +42,7 @@ st.pyplot(fig)
 #---------------
 fig2 = plt.figure(figsize=(4,2))
 #Rc=11.3
-x = np.arange(0,11,0.05)
+x = np.arange(0,Rc+0.2,0.2)
 y1 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-2)**2)
 y2 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-3)**2)
 y3 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-4)**2)
