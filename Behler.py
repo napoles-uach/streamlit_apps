@@ -86,3 +86,6 @@ st.write('The cutoff has to be sufficiently large to include several nearest nei
 st.write('*These "shifted" $G^1$ functions then are \
 suitable to describe a spherical shell around the reference atom*.')
 
+st.sidebar.markdown("""
+Made by [J. M. Nápoles](https://twitter.com/napoles3D) 
+""")
