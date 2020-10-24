@@ -20,7 +20,7 @@ environment of each atom and are subsequently used as input for the NN. They dep
 indicated by the dotted arrows.')
 
 st.write('**Radial symmetry functions** are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
-st.latex(r'''G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij})''')
+st.latex(r'''G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij}) \text{points in circle}''')
 
 st.latex('''f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1  ''')
 st.write('for $R_{ij}\le R_c$ and $0$ for $R_{ij}>R_c$:')
