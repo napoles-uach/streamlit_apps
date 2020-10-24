@@ -33,8 +33,10 @@ fig = plt.figure(figsize=(4,2))
 x = np.arange(0,Rc+0.2,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
 #plt.legend(['Rc=11'])
-plt.xlabel('R_ij')
-plt.ylabel('f_c')
+
+
+plt.xlabel(r'$R_{ij}$')
+plt.ylabel(r'$f_c$')
 plt.hlines(y=0.0-0.0002, xmin=Rc, xmax=20, linewidth=1.5)
 plt.ylim(-.05, 1.05)
 plt.plot(x,y)
