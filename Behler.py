@@ -54,7 +54,8 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
-Rc = st.sidebar.slider('Rc',1,20)  #
+#Rc = st.sidebar.slider('Rc',1,20)  #
+Rc = st.slider('Rc',1,20,11)
 #st.write(x, 'squared is', x * x)
 fig = plt.figure(figsize=(4,2))
 #Rc=x
