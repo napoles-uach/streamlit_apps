@@ -31,26 +31,8 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 
 
 
-#column 1
 
-#col1.write("**Finance and Business:** they can be used to evaluate risk in different \
-#options the business is looking at, such as investments")
-#col1.write("**Search and Rescue:** US coast guard uses it to predict likely locations of \
-#vessels in need of assistance")
-#col1.write("**Design and Visuals:** such as video games and producing 3D photo-realistic \
-#models and pictures")
-#col1.write("**Climate Change:** the Intergovernmental Panel on Climate Change uses it \
-#to help in the calculation of energy absorbed in the atmosphere due to greenhouse gasses")
-#col1.write("If you want to know more checkout the [Wiki link](https://en.wikipedia.org/wiki/Monte_Carlo_method)")
-
-# column 2: a gif
-#col2.write('[Wiki for the image](https://en.wikipedia.org/wiki/Kinetic_theory_of_gases)')
-# streamlit share launches from a directory above so need to account for this in the file path
-
-#-------------------------------------------
-#\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
-#Rc = st.sidebar.slider('Rc',1,20)  #
-st.write('$$\beta$$')
+st.write(' $\beta$')
 eta = st.selectbox('',(1,2,3,4,5))
 Rc = st.slider('Rc',1,20,11)
 
