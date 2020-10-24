@@ -36,6 +36,7 @@ y = 0.5*(np.cos(np.pi*x/Rc)+1)
 plt.xlabel('R_ij')
 plt.ylabel('f_c')
 plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
+plt.ylim(-.05, 1.05)
 plt.plot(x,y)
 st.pyplot(fig)
 
