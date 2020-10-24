@@ -57,9 +57,9 @@ y9 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-10)**2)
 plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 #plt.legend(['Rc=11.3'])
 plt.ylim(-.05, 1.05)
-plt.xlabel(r'R_{ij}')
-plt.ylabel('G^1')
-plt.title(r'$\alpha > \beta$')
+plt.xlabel(r'$R_{ij}$')
+plt.ylabel(r'$G^1$')
+
 
 st.pyplot(fig2)
 
