@@ -32,7 +32,7 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 
 
 
-st.write('$R_{ij}>R_c$')
+st.write('$R_{ij}>R_c \eta$')
 eta = st.selectbox('',(1,2,3,4,5))
 Rc = st.slider('Rc',1,20,11)
 
