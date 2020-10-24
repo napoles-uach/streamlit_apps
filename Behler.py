@@ -17,7 +17,7 @@ st.latex(r'''E=\sum_i E_i''')
 
 st.write('The general structure of this network topology is shown schematically below:')
 
-st.image('https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif',use_column_width=True)
+st.image('https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif',caption='DOI: 10.1039/C7SC02267K (Edge Article) Chem. Sci., 2017, 8, 6924-6935',use_column_width=True)
 st.write('The $$R_i$$ represent the Cartesian coordinates of atom $i$. In a first step these coordinates are transformed into a set of \
 symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local \
 environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as \
