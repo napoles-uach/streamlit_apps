@@ -97,4 +97,4 @@ st.write('At interatomic separations larger than the cutoff $R_c$ this function 
 st.write('*Function $G^1$is a sum of Gaussians multiplied by cutoff functions. The width of the Gaussians is defined by a parameter $\eta$,\
 and the center of the Gaussians can be shifted to a certain radial distance by the parameter $R_s$. These "shifted" $G^1$ functions then are \
 suitable to describe a spherical shell around the reference atom*.')
-st.balloons()
+
