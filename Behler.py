@@ -17,7 +17,7 @@ st.write('The main idea is to represent the total energy $E$ of the system as a 
 st.latex(r'''E=\sum_i E_i''')
 #st.write('$$E=\sum_i E_i$$')
 
-st.write('The general structure of this new network topology is shown schematically below:')
+st.write('The general structure of this network topology is shown schematically below:')
 st.write('![texto alternativo](https://pubs.rsc.org/image/article/2017/SC/c7sc02267k/c7sc02267k-f1_hi-res.gif) ')
 st.write('The $$R_i$$ represent the Cartesian coordinates of atom $i$. In a first step these coordinates are transformed into a set of symmetry function values $\{G_i^{\mu}\}$ for each atom $i$. These symmetry function values describe the energetically relevant local environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as indicated by the dotted arrows.')
 
@@ -26,6 +26,26 @@ st.write('$$G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij})$$')
 
 st.write('$$f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1$$ for $R_{ij}\le R_c$')
 st.write('and $0$ for $R_{ij}>R_c$:')
+
+
+col1, col2 = st.beta_columns((2,1))
+#column 1
+
+col1.write("**Finance and Business:** they can be used to evaluate risk in different \
+options the business is looking at, such as investments")
+#col1.write("**Search and Rescue:** US coast guard uses it to predict likely locations of \
+#vessels in need of assistance")
+#col1.write("**Design and Visuals:** such as video games and producing 3D photo-realistic \
+#models and pictures")
+#col1.write("**Climate Change:** the Intergovernmental Panel on Climate Change uses it \
+#to help in the calculation of energy absorbed in the atmosphere due to greenhouse gasses")
+#col1.write("If you want to know more checkout the [Wiki link](https://en.wikipedia.org/wiki/Monte_Carlo_method)")
+
+# column 2: a gif
+#col2.write('[Wiki for the image](https://en.wikipedia.org/wiki/Kinetic_theory_of_gases)')
+# streamlit share launches from a directory above so need to account for this in the file path
+col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png', caption='Brownian motion is random!')
+#-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 Rc = st.slider('Rc',1,20)  #
 #st.write(x, 'squared is', x * x)
