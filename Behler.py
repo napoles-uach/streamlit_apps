@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 st.sidebar.title("Original paper")
-st.sidebar.markdown("[Goodreads profile](https://www.goodreads.com/)")
+st.sidebar.markdown("[Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces](http://cacs.usc.edu/education/cs653/Behler-NNPES-PRL07.pdf)")
 
 
-st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
+st.title("Review of 'Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces'")
 
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
