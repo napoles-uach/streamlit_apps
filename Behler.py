@@ -39,4 +39,22 @@ plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
 plt.plot(x,y)
 st.pyplot(fig)
 
+#---------------
+Rc=11.3
+x = np.arange(0,11,0.05)
+y1 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-2)**2)
+y2 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-3)**2)
+y3 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-4)**2)
+y4 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-5)**2)
+y5 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-6)**2)
+y6 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-7)**2)
+y7 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-8)**2)
+y8 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-9)**2)
+y9 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-10)**2)
+plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
+plt.legend(['Rc=11.3'])
+plt.xlabel('R_ij')
+plt.ylabel('G^1')
+st.pyplot(fig)
+
 st.write('At interatomic separations larger than the cutoff $R_c$ this function yields zero value and slope. The cutoff has to be sufficiently large to include several nearest neighbors, and in the present Letter a cutoff of 6 Angstroms has been used.')
