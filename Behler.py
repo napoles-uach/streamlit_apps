@@ -44,7 +44,7 @@ options the business is looking at, such as investments")
 # column 2: a gif
 #col2.write('[Wiki for the image](https://en.wikipedia.org/wiki/Kinetic_theory_of_gases)')
 # streamlit share launches from a directory above so need to account for this in the file path
-col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true', caption='Brownian motion is random!')
+col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true', caption='Brownian motion is random!',use_column_width=True)
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 Rc = st.slider('Rc',1,20)  #
