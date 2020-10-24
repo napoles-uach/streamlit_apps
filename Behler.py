@@ -46,7 +46,7 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 #-------------------------------------------
 #\times[\cos(\frac{\pi R_{ij}}{R_c})+1]
 #Rc = st.sidebar.slider('Rc',1,20)  #
-beta = st.selectbox('$\beta$',(1,2,3,4,5))
+eta = st.selectbox('$\eta$',(1,2,3,4,5))
 Rc = st.slider('Rc',1,20,11)
 
 #st.write(x, 'squared is', x * x)
@@ -69,16 +69,16 @@ fig2 = plt.figure(figsize=(4,3.5))
 #Rc=11.3
 x = np.arange(0,Rc+0.05,0.05)
 plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
-y1 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-2)**2)
-y2 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-3)**2)
-y3 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-4)**2)
-y4 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-5)**2)
-y5 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-6)**2)
-y6 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-7)**2)
-y7 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-8)**2)
-y8 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-9)**2)
+y1 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-2)**2)
+y2 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-3)**2)
+y3 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-4)**2)
+y4 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-5)**2)
+y5 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-6)**2)
+y6 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-7)**2)
+y7 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-8)**2)
+y8 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-9)**2)
 plt.legend(['Rc=11.3'])
-y9 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-3*(x-10)**2)
+y9 = 0.5*(np.cos(np.pi*x/Rc)+1)*np.exp(-eta*(x-10)**2)
 
 plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 
