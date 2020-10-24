@@ -84,7 +84,7 @@ plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 plt.ylim(-.05, 1.05)
 plt.xlabel(r'$R_{ij}$')
 plt.ylabel(r'$G^1$')
-col1, col2 = st.beta_columns((2,1))
+col1, col2 = st.beta_columns((1,1))
 col1.pyplot(fig2,use_column_width=True)
 col2.image('https://github.com/napoles-uach/figuras/blob/master/G2.png?raw=true',use_column_width=True)
 
