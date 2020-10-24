@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 #add_slider = st.sidebar.slider(
 #    'Select a range of values',
 #    0.0, 100.0, (25.0, 75.0)
-)
+#)
 st.beta_set_page_config(layout="wide")
 
 st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
