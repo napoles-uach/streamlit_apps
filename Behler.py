@@ -87,8 +87,8 @@ plt.ylim(-.05, 1.05)
 plt.xlabel(r'$R_{ij}$')
 plt.ylabel(r'$G^1$')
 col1, col2 = st.beta_columns((1,1))
-col1.pyplot(fig,use_column_width=True)
-col2.pyplot(fig2,use_column_width=True)
+col1.pyplot(fig,caption='text',use_column_width=True)
+col2.pyplot(fig2,caption='text',use_column_width=True)
 
 st.write('Radial symmetry functions for an atom with one neighbor only')
 
