@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
-
+st.beta_set_page_config(layout="wide")
 
 st.title("Review of Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
 #st.write('The structure of a simple NN as it has hitherto been used to represent PESs is shown schematically for a 2D PES.')
