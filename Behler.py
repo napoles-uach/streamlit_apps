@@ -2,8 +2,10 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
-st.sidebar.title("Original paper")
-st.sidebar.markdown("[Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces](http://cacs.usc.edu/education/cs653/Behler-NNPES-PRL07.pdf)")
+st.sidebar.title("Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces\
+Jörg Behler and Michele Parrinello\
+Phys. Rev. Lett. 98, 146401 – Published 2 April 2007")
+st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](http://cacs.usc.edu/education/cs653/Behler-NNPES-PRL07.pdf)")
 
 
 st.title("Review of 'Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces'")
