@@ -48,7 +48,7 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 #Rc = st.sidebar.slider('Rc',1,20)  #
 Rc = st.slider('Rc',1,20,11)
 #st.write(x, 'squared is', x * x)
-fig = plt.figure(figsize=(4,2))
+fig = plt.figure(figsize=(4,4))
 #Rc=x
 x = np.arange(0,Rc+0.2,0.2)
 y = 0.5*(np.cos(np.pi*x/Rc)+1)
@@ -63,7 +63,7 @@ plt.plot(x,y)
 #st.pyplot(fig)
 
 #---------------
-fig2 = plt.figure(figsize=(4,2))
+fig2 = plt.figure(figsize=(4,4))
 #Rc=11.3
 x = np.arange(0,Rc+0.05,0.05)
 plt.hlines(y=0.0-0.002, xmin=Rc, xmax=20, linewidth=1.5)
