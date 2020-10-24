@@ -33,7 +33,7 @@ st.write('and $0$ for $R_{ij}>R_c$:')
 
 
 st.write('$\eta$')
-eta = st.selectbox('$\eta$',(1,2,3,4,5))
+eta = st.selectbox('',(1,2,3,4,5))
 Rc = st.slider('Rc',1,20,11)
 
 #st.write(x, 'squared is', x * x)
