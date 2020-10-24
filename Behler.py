@@ -7,8 +7,8 @@ st.sidebar.write("Jörg Behler and Michele Parrinello")
 st.sidebar.write(" Phys. Rev. Lett. 98, 146401 – Published 2 April 2007")
 st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](10.1103/PhysRevLett.98.146401)")
 
-
-st.title("Review of 'Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces'")
+st.title('Interactive Review')
+st.header("Paper: Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
 
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
