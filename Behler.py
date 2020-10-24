@@ -59,6 +59,7 @@ plt.plot(x,y1,x,y2,x,y3,x,y4,x,y5,x,y6,x,y7,x,y8,x,y9)
 plt.ylim(-.05, 1.05)
 plt.xlabel(r'R_{ij}')
 plt.ylabel('G^1')
+plt.title(r'$\alpha > \beta$')
 
 st.pyplot(fig2)
 
