@@ -25,7 +25,7 @@ with my_expander:
     environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as \
     indicated by the dotted arrows.')
 
-st.write('**Radial symmetry functions** are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
+st.write('**Radial symmetry functions** (G in Figure) are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
 st.latex(r'''G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij}) ''')
 
 st.latex(r'''f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1 \text{ for } R_{ij}\le R_c  ''')
