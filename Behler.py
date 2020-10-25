@@ -32,7 +32,7 @@ st.latex(r'''f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1 \text{ for } R_{ij}\le R_c  '
 st.write('and $0$ for $R_{ij}>R_c$.')
 
 
-st.write('Chose parameters $\eta$ and $R_c$ below:')
+st.write('Chose parameters $\eta$ and $R_c$ below to see the behaviour of these functions:')
 
 st.write('$\eta$')
 eta = st.selectbox('',(1,2,3,4,5))
