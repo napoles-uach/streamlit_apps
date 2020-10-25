@@ -9,7 +9,9 @@ st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](10.1103/PhysRevLett.98
 
 st.title('Interactive Review')
 st.header("Paper: Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
-
+st.markdown("""
+Made by [J. M. Nápoles](https://twitter.com/napoles3D) 
+""")
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
 st.latex(r'''E=\sum_i E_i''')
@@ -86,6 +88,4 @@ st.write('The cutoff has to be sufficiently large to include several nearest nei
 st.write('*These "shifted" $G^1$ functions then are \
 suitable to describe a spherical shell around the reference atom*.')
 
-st.sidebar.markdown("""
-Made by [J. M. Nápoles](https://twitter.com/napoles3D) 
-""")
+
