@@ -25,7 +25,7 @@ with my_expander:
     environment of each atom and are subsequently used as input for the NN. They depend on the positions of all atoms in the system, as \
     indicated by the dotted arrows.')
 
-st.write('**Radial symmetry functions** (G in Figure) are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
+st.write('**Radial symmetry functions** ("G" in Figure) are constructed as a sum of Gaussians with the parameters $\eta$ and $R_s$')
 st.latex(r'''G_i^1=\sum_{j\ne i}^{all} e^{-\eta (R_{ij}-R_s)^2}f_c(R_{ij}) ''')
 
 st.latex(r'''f_c(R_{ij})=0.5\cos(\pi R_{ij}/R_c)+1 \text{ for } R_{ij}\le R_c  ''')
@@ -85,7 +85,7 @@ st.write('(Radial symmetry functions for an atom with one neighbor only.)')
 
 
 st.write('The cutoff has to be sufficiently large to include several nearest neighbors.')
-st.write('*These "shifted" $G^1$ functions then are \
-suitable to describe a spherical shell around the reference atom*.')
+st.write('These "shifted" $G^1$ functions then are \
+suitable to describe a spherical shell around the reference atom.')
 
 
