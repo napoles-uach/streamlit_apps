@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 st.sidebar.write("Paper Authors: Jörg Behler and Michele Parrinello")
 st.sidebar.write(" Phys. Rev. Lett. 98, 146401 – Published 2 April 2007")
 st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](http://cacs.usc.edu/education/cs653/Behler-NNPES-PRL07.pdf)")
-st.sidebar.write("10.1103/PhysRevLett.98.146401")
+#st.sidebar.write("10.1103/PhysRevLett.98.146401")
 
 st.title('Interactive Review')
 st.header("Paper: Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
