@@ -5,12 +5,12 @@ import streamlit.components.v1 as components
 #st.sidebar.write("Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces.")
 st.sidebar.write("Paper Authors: Jörg Behler and Michele Parrinello")
 st.sidebar.write(" Phys. Rev. Lett. 98, 146401 – Published 2 April 2007")
-#st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](10.1103/PhysRevLett.98.146401)")
+st.sidebar.markdown("DOI: [10.1103/PhysRevLett.98.146401](10.1103/PhysRevLett.98.146401)")
 st.sidebar.write("10.1103/PhysRevLett.98.146401")
 
 st.title('Interactive Review')
 st.header("Paper: Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces")
-st.write('Focus on Radial Symmetry functions')
+st.write('(Focus on Radial Symmetry functions)')
 st.markdown("Made by [JM Nápoles](https://twitter.com/napoles3D) ")
 st.write('The main idea is to represent the total energy $E$ of the system as a sum of atomic contributions $E_i$, (typically used in empirical potentials)')
 
