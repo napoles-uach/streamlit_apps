@@ -1,5 +1,11 @@
 matplotlib
-streamlit==0.69
+streamlit==0.71.0
 numpy
+networkx
+pandas
+imageio
+scipy
+random
+
 
 
