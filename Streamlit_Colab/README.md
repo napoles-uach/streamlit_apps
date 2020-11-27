@@ -1,4 +1,4 @@
-# Starter kit of Streamlit for first time users. 
+# Streamlit starter kit of for first time users. 
 Run amazing Streamlit apps in Google Colaboratory. 
 If you like it, other options are installing on your own machine or requesting a free account in Streamlit Share.
 
