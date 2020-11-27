@@ -4,6 +4,7 @@ If you like it, you have other options like installing on your own machine of re
 
 Index:
 - [01_Streamlit__Colab_RDKit.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/01_Streamlit__Colab_RDKit.ipynb)
+![GitHub Logo](/images/logo.png)
 - 02
 
 
