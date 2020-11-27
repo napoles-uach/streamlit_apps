@@ -10,5 +10,6 @@ Index:
 
 Known issues:
 - Too many connections
+
 ![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/TooMany.png)
 
