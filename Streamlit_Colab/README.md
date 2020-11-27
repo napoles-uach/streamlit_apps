@@ -4,7 +4,7 @@ If you like it, other options are installing on your own machine or requesting a
 
 Index:
 - [01_Streamlit__Colab_RDKit.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/01_Streamlit__Colab_RDKit.ipynb)
-- 02
+- [02_Streamlit__Colab_Networkx.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Networkx.ipynb)
 
 
 
