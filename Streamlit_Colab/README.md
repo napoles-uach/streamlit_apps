@@ -12,9 +12,13 @@ Index:
 
 
 Known issues:
+- Not showing link
+![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/linktowebapp.png)
+Just run the cell again.
 - Too many connections.
 
 ![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/TooMany.png)
+remove ngrok folder
 
 - Others ..
 
