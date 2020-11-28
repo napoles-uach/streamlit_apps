@@ -4,7 +4,7 @@ If you like it, other options are installing on your local machine, other cloud 
 
 
 Index:
-- [00_Streamlit__Colab_RDKit.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/00_Streamlit__Colab_.ipynb)
+- [00_Streamlit__Colab_.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/00_Streamlit__Colab_.ipynb)
 - [01_Streamlit__Colab_RDKit.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/01_Streamlit__Colab_RDKit.ipynb)
 - [02_Streamlit__Colab_Networkx.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Networkx.ipynb)
 - [03_Streamlit__Colab_Demo.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Demo.ipynb)
