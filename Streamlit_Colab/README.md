@@ -8,6 +8,7 @@ Index:
 - [01_Streamlit__Colab_RDKit.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/check_colab/Streamlit_Colab/01_Streamlit__Colab_RDKit.ipynb)
 - [02_Streamlit__Colab_Networkx.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Networkx.ipynb)
 - [03_Streamlit__Colab_Demo.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Demo.ipynb)
+- [04_Streamlit__Colab_Chat.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/02_Streamlit__Colab_Chat.ipynb)
 
 (For the impatient, have a glimpse of how the apps looks like in the [Images](https://github.com/napoles-uach/streamlit_apps/tree/main/Streamlit_Colab/Images) folder)
 
