@@ -1,6 +1,6 @@
-# Streamlit starter kit for first time users. 
-Run amazing Streamlit apps in Google Colaboratory. 
-If you like it, other options are installing on your local machine, other cloud service or requesting a free account in [Streamlit Share](https://www.streamlit.io/sharing).
+# Streamlit starter kit for new users. 
+Run amazing [Streamlit](https://www.streamlit.io/) apps in Google Colaboratory. 
+If you like it, other options are installing on your local machine (pip install streamlit), other cloud service or requesting a free account in [Streamlit Share](https://www.streamlit.io/sharing).
 
 
 Index:
@@ -19,12 +19,12 @@ Index:
 Known issues:
 - Not showing link
 
-Just run the cell again.
+just run the cell again.
 - Too many connections.
 
 ![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/TooMany.png)
 
-remove ngrok folder and run all
+run the cell again.
 
 - Others ..
 
