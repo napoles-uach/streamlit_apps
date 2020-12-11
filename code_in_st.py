@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 import runpy
-
-input_=st.text_area('Area for Python+Streamlit code')
+st.write('Better use with [Cheat Sheet](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py)')
+input_=st.text_area('Area for Python+Streamlit code\n Try: st.balloons()')
 #st.write(input_)
 
 
