@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import runpy
 
-input_=st.text_area('Area for textual entry')
+input_=st.text_area('Area for Python+Streamlit code')
 #st.write(input_)
 
 
