@@ -22,15 +22,4 @@ If you like it, other options are installing on your local machine (pip install 
 06 | 07 | 08  |
 ![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/06.png) | ![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/07.png) | ---
 
-## Known issues:
-- Not showing link
-
-just run the cell again.
-- Too many connections.
-
-![](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/Images/TooMany.png)
-
-run the cell again.
-
-- Others ..
 
