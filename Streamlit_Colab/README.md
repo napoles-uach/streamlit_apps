@@ -12,7 +12,7 @@ If you like it, other options are installing on your local machine (pip install 
 - [05_Streamlit__Colab_Pydeck.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/05_Streamlit__Colab_Pydeck.ipynb)
 - [06_Streamlit__Colab_Pydeck.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/06_Streamlit__Colab_BrainTumor.ipynb)
 - [07_Streamlit__Colab_DogCat.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/07_Streamlit__Colab_DogCat.ipynb)
-
+- [08_Streamlit__Colab_text2image.ipynb](https://github.com/napoles-uach/streamlit_apps/blob/main/Streamlit_Colab/08_Streamlit__Colab_text2image.ipynb)
 ## For the impatient, have a glimpse of how the apps looks like in the [images](https://github.com/napoles-uach/streamlit_apps/tree/main/Streamlit_Colab/Images) below
 00 | 01 | 02  |
 ----|----|----|
