@@ -5,6 +5,7 @@ networkx
 pandas
 imageio
 scipy
+click == 8
 
 
 
